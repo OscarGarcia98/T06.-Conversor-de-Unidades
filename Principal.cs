@@ -34,7 +34,7 @@ namespace Convertidor_de_Unidades
             res = Convert.ToInt32(Console.ReadLine());
 
             if (res != 6)
-            {         //Condición que permite terminar el programa si el usario ingresa 5, en caso contrario se evalua el switch
+            {         //Condición que permite terminar el programa si el usario ingresa 6, en caso contrario se evalua el switch
                 
                 switch (res)
                 {
