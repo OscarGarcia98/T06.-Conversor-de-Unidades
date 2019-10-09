@@ -15,12 +15,12 @@ namespace Convertidor_de_Unidades
             valorf = valor / 100;                  
         }
 
-        public double Convertir(double valor)       //Métodos sobrecargados  donde paso un valor int solo para evitar un error a la hora de ejecución
+        public double Convertir(double valor)       //Método sobrecargado
         {
             return valor * 39.370079;           //Regresa el resultado de la conversion de metros a plg
         }
         public double Convertir(double valor, int res )
-        {
+        {                                       //Métodos sobrecargados  donde paso un valor int solo para evitar un error a la hora de ejecución
             return valor * 1000;            //Regresa el resultado de la conversion de litros a ml.
         }
 
